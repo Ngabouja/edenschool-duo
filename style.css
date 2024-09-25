@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body { 
+     
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+}
+
+.card-rouge{
+    background-color: red;
+
+}
+
+.card-bleu{
+    background-color: blue;
+}
+
+.card-jaune{
+    background-color: yellow;
+}
+
+.card-vert{
+ background-color: greenyellow;
+}
